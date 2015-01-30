@@ -14,7 +14,7 @@ id or name of the WebEelements on the page gets changed,
 we only need to update this page. 
 WebElements for the SearchGoogle method:
 * Q: Google's search textbox. Uses SendKeys method. 
-* BtnG: The search buttom users click. Uses Click method.
+* BtnG: The search button users click. Uses Click method.
 The ClickSelenium method finds and clicks the link for Selenium HQ.
   
 
