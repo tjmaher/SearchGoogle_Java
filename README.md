@@ -1,11 +1,12 @@
 # SearchGoogle_Java
-Java: Selenium WebDriver PageObject example Google searching for Selenium HQ site
+Java: Selenium WebDriver PageObject example: Google searching for Selenium HQ site
 
 An example of using Selenium WebDriver PageObjects and PageFactory. 
 
 Source code found in src/org/SearchGoogle: 
 
 GoogleHomePageObjects.java
+--------------------------
 
 A PageObject representing the Google Homepage
 that directly interacts with the HTML. If the 
@@ -17,7 +18,8 @@ WebElements for the SearchGoogle method:
 The ClickSelenium method finds and clicks the link for Selenium HQ.
   
 
-SeleniumPageObject.java 
+SeleniumPageObject.java
+------------------------
 
 A PageObject that represents the SeleniumHQ main page.
 Methods:
@@ -26,6 +28,7 @@ Methods:
 
 
 GoogleSearchTest.java
+---------------------
 
 A Test Class which runs the script by calling methods set up 
 in GoogleHomePageObjects and SeleniumPageObjects.
